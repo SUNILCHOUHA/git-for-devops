@@ -1,0 +1,96 @@
+Git :- Version Control System is a tools that helps to track changes in code.
+
+GIT  is a Version Control System.it is :
+	popular
+	free and Open Source
+	fast and scalable
+
+
+GitHub:- Website that allows developers to store and manage their code using Git.
+	https:/GitHub.com
+
+GitHub Account :- 
+	.Create a new repository : Chouhan
+	.Make our first commit	
+
+Configuring Git :
+	git config --global user.name "My Name"
+	git config --global user.email "abc@gmail.com"
+	git config --list
+
+Basics command in Git:
+
+Clone & status command :-
+clone - Cloning a repository on our machine 
+	git clone <-some link->
+
+status- Displays the state of the code
+	git status
+
+git status type:- untracked - new files that git doesn't yet track
+
+		 modified - changed
+
+		 staged - file is ready to be committed
+
+		 unmodified - unchanged
+
+
+Add & Commit command :-
+
+add- adds new or changed files in your working directory to the git staging area.
+     git add <-file name->
+
+commit- it is the record of changes
+        git commit -m "some message"
+
+Push Command :-
+	       push - upload local repo content to remote repo
+		      git push origin main
+
+
+Init Command :-
+
+	init - used to create a new git repo
+		git init
+
+		git remote add origin <_link_>
+
+		git remote -v (to verify remote)
+
+		git branch (to check branch)
+
+		git branch -M main (to rename branch)
+		
+		git push origin main
+
+
+WorkFlow :-
+	Local Git:- GitHub-> Clone-> changes-> add-> commit-> push
+
+
+Git Branches :- 
+
+Branch Commands :-
+ 
+	git branch (to check Branch)
+	git branch -M main (to rename branch)
+	git checkout <-Branch name-> (to navigate)
+	git checkout -b <-new branch name -> (to create new branch)
+	git branch -d <-branch name-> (to delete Branch)
+
+
+Merging Code :-
+	Way1 :-
+	    git diff <- branch name-> (To compare commits, branches, files & more)
+	    git merge <-branch name-> (to merge 2 branches)
+
+	Way2:-
+	    Create pull request(PR)
+
+Pull Request :- It lets you tell other about changes you've pushed to a branch in a repository on GitHub.
+
+
+Pull Command :- Used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+	git pull origin main
+    
