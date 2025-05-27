@@ -49,7 +49,7 @@ Push Command :-
 		      git push origin main
 
 
-Init Command :-
+init Command :-
 
 	init - used to create a new git repo
 		git init
